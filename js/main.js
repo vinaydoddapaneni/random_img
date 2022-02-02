@@ -2,5 +2,4 @@
 function changeImg() {
     var ram = Math.ceil(Math.random() * 20)
     document.getElementById("img").src = `https://picsum.photos/200/300?random=${ram}`;
-    console.log(ram);
 }

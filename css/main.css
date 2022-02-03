@@ -6,6 +6,7 @@
     border-radius: 10px;
     color: white;
 }
+
 img {
     border-radius: 20px;
     box-shadow: 5px 5px 4px 5px #888888;
@@ -17,9 +18,8 @@ img:hover {
     transform: scale(0.9, 0.9)
 }
 
-button {
+.button {
     display: block;
-    background-color: blueviolet;
     height: 40px;
     width: 100px;
     border-radius: 10px;
@@ -30,11 +30,65 @@ button {
     text-align: center;
 }
 
+.button1 {
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.button2 {
+    background-color: royalblue;
+    transition: 1s;
+}
+
+.button3 {
+    background-color: red;
+    transition: 1s;
+}
+
+.button4 {
+    background-color: salmon;
+    transition: 1s;
+}
+
+.button5 {
+    background-color: skyblue;
+    transition: 1s;
+}
+
+.button6 {
+    background-color: tan;
+    transition: 1s;
+}
+
+.button7 {
+    background-color: sienna;
+    transition: 1s;
+}
+
+.button8 {
+    background-color: palevioletred;
+    transition: 1s;
+}
+
+.button9 {
+    background-color: rebeccapurple;
+    transition: 1s;
+}
+
+.button10 {
+    background-color: tomato;
+    transition: 1s;
+}
+
+
+
+
+
 button:hover {
     box-shadow: 1px 1px 0.5px 1px #888888;
 }
 
-@media (max-width:700px){
+@media (max-width:700px) {
     .bodyClass {
         width: 70%;
         text-align: center;

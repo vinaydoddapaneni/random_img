@@ -8,7 +8,7 @@ setInterval(() => {
         var button = document.getElementsByTagName('button')[0]
         console.log(button.setAttribute('class',`button button${counter}`));
     } else {
-        document.clearInterval()
+        window.clearInterval()
     }
 }, 1000);
 function changeImg() {
